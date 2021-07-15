@@ -1,0 +1,260 @@
+/* /////////////
+Google font 
+//////////////*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+/* -------------------
+Website Root Style
+------------------- */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+/* -------------------
+Website Header  Style
+------------------- */
+
+section.main-slider {
+    display: flex;
+    background-color: #2D25A0;
+    padding-top: 153px;
+    padding-bottom: 86px;
+    justify-content: center;
+    
+}
+
+.left-side-content {
+    width: 485px;
+}
+
+.left-side-content h2 {
+    font-size: 64px;
+    line-height: 80px;
+    color: #ffffff;
+    margin-bottom: 27px;
+}
+
+a.watchlive {
+    padding: 10px 24px 10px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #E02C6D;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+span.live-arrow i {
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+.right-side-content img {
+    width: 556px;
+    height: 438px;
+}
+
+
+/* -------------------
+Players Section Style
+------------------- */
+
+section.players {
+    padding: 70px;
+}
+
+.players-lists {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 27px;
+    justify-items: center;
+    
+}
+
+
+.player-list {
+    width: 300px;
+    padding: 15px 15px;
+    border: 1px solid #cccc;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+}
+
+
+.player-thumbnail img {
+    width: 300px;
+    height: 256px;
+}
+
+.player-info h2 {
+    color: #18191F;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.player-info p {
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 33px;
+}
+
+/* -------------------
+Animation Effect
+------------------- */
+
+.player-thumbnail img:hover {
+    transform: scale(1.1);
+    transition: transform;
+    transition-duration: .35s;
+    transition-timing-function: ease-in;
+}
+
+
+/* -------------------
+Match Section Style
+------------------- */
+
+section.match {
+    padding-top: 95px;
+    padding-bottom: 98px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.match-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.match-left-side {
+    width: 469px;
+    
+}
+
+.match-left-side h2 {
+    font-size: 48px;
+    line-height: 60px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+
+.match-left-side p {
+    color: #6C6C6C;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 28px;
+    margin-bottom: 24px;
+    margin-top: 8px;
+}
+
+
+.match-right-side {
+
+}
+
+.match-right-side img {
+    width: 567px;
+    height: 427px;
+}
+
+/* -------------------
+Extra Section Style
+------------------- */
+
+section.extra-section {
+    padding: 70px;
+}
+
+
+.extra-section-wrap {
+    display: flex;
+    align-items: center;
+}
+
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 70px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #cccccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 3px;
+    vertical-align: -15px;
+  }
+  blockquote p {
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    line-height: 48px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .left-video {
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    border: 5px solid #f5f5f5;
+}
+
+/* -------------------
+Footer Section Style
+------------------- */
+
+section.footer-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom:47px;
+}
+
+
+ .footer-logo img {
+    width: 483px;
+    height: 110px;
+    margin-bottom: 27px;
+}
+
+.footer-icons {
+    margin: 20px 0px;
+}
+
+.footer-icons a {
+    text-decoration: none;
+}
+
+.footer-icons img {
+    width: 32px;
+    height: 32px;
+    margin: 0px 14px;
+}
+
+p.copyright {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
